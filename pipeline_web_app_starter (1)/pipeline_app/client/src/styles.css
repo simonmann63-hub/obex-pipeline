@@ -1,0 +1,17 @@
+
+*{box-sizing:border-box} body{margin:0;font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial}
+.app{padding:12px}
+.topbar{display:flex;gap:12px;align-items:center;margin-bottom:12px}
+.columns{display:flex;gap:10px;overflow:auto;height:calc(100vh - 70px);}
+.column{background:#f4f6f8;border:1px solid #e0e3e7;border-radius:8px;min-width:320px;display:flex;flex-direction:column}
+.column-header{display:flex;justify-content:space-between;align-items:center;padding:8px 10px;border-bottom:1px solid #e0e3e7}
+.column-title{font-weight:600}
+.add-btn{border:none;background:#0a66c2;color:#fff;padding:6px 10px;border-radius:6px;cursor:pointer}
+.list{padding:8px;flex:1;overflow:auto}
+.card{background:#fff;border:1px solid #d9dde3;border-radius:8px;padding:8px;margin-bottom:8px;box-shadow:0 1px 1px rgba(0,0,0,.03)}
+.card h4{margin:0 0 6px 0;font-size:14px}
+.card small{color:#667}
+.footer{padding:8px;border-top:1px solid #e0e3e7;background:#f9fafb;font-size:12px}
+.badge{background:#eef2ff;color:#3143a7;border-radius:12px;padding:2px 8px;margin-left:6px;font-size:12px}
+.filter{padding:6px;border:1px solid #cbd2d9;border-radius:6px}
+.download{margin-left:auto;border:1px solid #0a66c2;color:#0a66c2;background:#fff;border-radius:6px;padding:6px 10px;cursor:pointer}
